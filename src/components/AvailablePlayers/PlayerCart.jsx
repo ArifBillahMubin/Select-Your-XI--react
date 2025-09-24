@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import group from '../../assets/Group.png'
 import flag from '../../assets/Group-flag.png'
 
-const PlayerCart = ({ data }) => {
+const PlayerCart = ({ data, setAvailableBalance, availableBalance, chosePlayer, setChosePlayer }) => {
+    const [isSelected,setIsSelected] = useState(true);
+    const handleChosePlayer = (price, availableBalance)=>{
+        if(availableBalance<price){
+            alert("not balance...");
+            return;
+        } 
+        setIsSelected(false);
+        setAvailableBalance(availableBalance-price);
+        setChosePlayer([...chosePlayer,data])
+    }
     // console.log(data);
     const { image, playerName, country, role, rating, ballStyle, batStyle, price } = data;
     return (
+        
+        <>
         <div className="card bg-base-100 shadow-lg p-4 mb-4">
             <figure>
                 <img className='rounded-2xl mb-4 h-[240px] w-full object-cover object-top'
@@ -35,10 +47,11 @@ const PlayerCart = ({ data }) => {
                 </div>
                 <div className='flex justify-between items-center mt-1'>
                     <h1 className='font-semibold'>Price: $<span>{price}</span></h1>
-                    <h1 className='btn'>Choose Player</h1>
+                        <button disabled={isSelected === false} onClick={() => { handleChosePlayer(price, availableBalance)}} className='btn'>{isSelected ?"Choose Player":"Selected"}</button>
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
