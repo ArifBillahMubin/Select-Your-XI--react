@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "playerName": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 95,
+    "batStyle": "Left-Hand-Bat",
+    "ballStyle": "Left-Arm-Spin",
+    "price": 120000,
+    "image": "https://i.ibb.co.com/TD5M9jwk/sakib-all-hasan.jpg"
+  },
+  {
+    "id": 2,
+    "playerName": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 90,
+    "batStyle": "Left-Hand-Bat",
+    "ballStyle": "None",
+    "price": 100000,
+    "image": "https://i.ibb.co.com/4wfwhc1q/tamim-iqbal.webp"
+  },
+  {
+    "id": 3,
+    "playerName": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 88,
+    "batStyle": "Left-Hand-Bat",
+    "ballStyle": "Left-Arm-Fast",
+    "price": 95000,
+    "image": "https://i.ibb.co.com/JWWrrStw/mostafizzur-rhaman.webp"
+  },
+  {
+    "id": 4,
+    "playerName": "Chris Gayle",
+    "country": "West Indies",
+    "role": "Batsman",
+    "rating": 92,
+    "batStyle": "Left-Hand-Bat",
+    "ballStyle": "Right-Arm-Offbreak",
+    "price": 110000,
+    "image": "https://i.ibb.co.com/LXjM3Y4M/Chris-Gayle.webp"
+  },
+  {
+    "id": 5,
+    "playerName": "Sunil Narine",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "rating": 89,
+    "batStyle": "Left-Hand-Bat",
+    "ballStyle": "Right-Arm-Offbreak",
+    "price": 105000,
+    "image": "https://i.ibb.co.com/WvyCQ02y/sunil-narian.jpg"
+  },
+  {
+    "id": 6,
+    "playerName": "Andre Russell",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "rating": 94,
+    "batStyle": "Right-Hand-Bat",
+    "ballStyle": "Right-Arm-Fast",
+    "price": 115000,
+    "image": "https://i.ibb.co.com/GQfVJnJb/andre-rasel.jpg"
+  },
+  {
+    "id": 7,
+    "playerName": "AB de Villiers",
+    "country": "South Africa",
+    "role": "Batsman",
+    "rating": 97,
+    "batStyle": "Right-Hand-Bat",
+    "ballStyle": "None",
+    "price": 130000,
+    "image": "https://i.ibb.co.com/pBwG3C25/ab-de-villiers.jpg"
+  },
+  {
+    "id": 8,
+    "playerName": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 93,
+    "batStyle": "Left-Hand-Bat",
+    "ballStyle": "Right-Arm-Legbreak",
+    "price": 125000,
+    "image": "https://i.ibb.co.com/4RL2X6km/david-warner.jpg"
+  },
+  {
+    "id": 9,
+    "playerName": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "rating": 91,
+    "batStyle": "Left-Hand-Bat",
+    "ballStyle": "Left-Arm-Fast",
+    "price": 110000,
+    "image": "https://i.ibb.co.com/vxXQJFV2/mitchell-starc.jpg"
+  },
+  {
+    "id": 10,
+    "playerName": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "rating": 92,
+    "batStyle": "Right-Hand-Bat",
+    "ballStyle": "Right-Arm-Offbreak",
+    "price": 115000,
+    "image": "https://i.ibb.co.com/xtZ7wcBR/kane-wlimsone.jpg"
+  },
+  {
+    "id": 11,
+    "playerName": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "rating": 94,
+    "batStyle": "Left-Hand-Bat",
+    "ballStyle": "Right-Arm-Fast-Medium",
+    "price": 125000,
+    "image": "https://i.ibb.co.com/tpQ5sGFZ/ben-stokes.jpg"
+  },
+  {
+    "id": 12,
+    "playerName": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 98,
+    "batStyle": "Right-Hand-Bat",
+    "ballStyle": "Right-Arm-Medium",
+    "price": 140000,
+    "image": "https://i.ibb.co.com/QFNMpW9F/Virat-Kohl.webp"
+  }
+]
