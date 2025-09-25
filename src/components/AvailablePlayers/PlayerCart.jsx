@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
 import group from '../../assets/Group.png'
 import flag from '../../assets/Group-flag.png'
+import { toast } from 'react-toastify';
 
 const PlayerCart = ({ data, setAvailableBalance, availableBalance, chosePlayer, setChosePlayer }) => {
     const [isSelected,setIsSelected] = useState(true);
     const handleChosePlayer = (price, availableBalance)=>{
         if(availableBalance<price){
-            alert("not balance...");
+            toast("no available balance...");
             return;
-        } 
+        }
+        if (chosePlayer.length>5){
+            toast("only select 6 player...");
+            return;
+        }
+
         setIsSelected(false);
         setAvailableBalance(availableBalance-price);
         setChosePlayer([...chosePlayer,data])
